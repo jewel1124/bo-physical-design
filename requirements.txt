@@ -1,0 +1,15 @@
+# ============================================================
+# Requirements cho BO_OPENROAD Framework
+# Đồ án: Ứng dụng Bayesian Optimization để tối ưu tham số
+#         trong flow thiết kế vật lý vi mạch
+# Đại học Bách Khoa Hà Nội — 2026
+# ============================================================
+
+# Bayesian Optimization — dùng trong run_bo.py
+scikit-optimize>=0.9.0
+
+# Đọc/ghi CSV, lọc kết quả dataset — dùng trong cả 3 script
+pandas>=1.5.0
+
+# Tính toán số học — dependency của scikit-optimize và pandas
+numpy>=1.23.0
