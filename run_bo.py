@@ -1,10 +1,8 @@
 import csv
 from pathlib import Path
-
 import pandas as pd
 from skopt import gp_minimize
 from skopt.space import Integer, Real
-
 from run_experiments import run_one
 
 
@@ -13,7 +11,7 @@ OUT_CSV = Path("dataset/APU_bo_dataset_3.csv")
 OUT_CSV.parent.mkdir(exist_ok=True)
 
 
-N_CALLS = 10
+N_CALLS = 20
 N_INITIAL_POINTS = 3
 
 

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+logs/
+designs/APU/runs/
+*.bak
+.DS_Store
